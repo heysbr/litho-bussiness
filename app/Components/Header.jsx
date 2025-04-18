@@ -33,10 +33,11 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="/logo.png"
+            src="/logo.svg"
             alt="Litho Logo"
             className="h-8 w-8 object-cover"
           />
+          
           <span className="text-xl font-bold text-gray-800">LITHO</span>
         </div>
 
