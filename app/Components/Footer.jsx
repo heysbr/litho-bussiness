@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="bg-gray-900 text-gray-300 py-10">
+      <footer className="bg-[#262B35] text-gray-300 py-10 text-[15px]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
             {/* Brand Section */}
@@ -12,6 +12,7 @@ const Footer = () => {
   
             {/* Links Sections */}
             <div>
+
               <h2 className="text-white text-lg font-semibold mb-4">Company</h2>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:text-white">About company</a></li>

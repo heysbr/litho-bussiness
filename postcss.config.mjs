@@ -4,13 +4,6 @@ const config = {
     extend: {
       colors: {
         
-        customFooter: "#262B35",
-        customPink: {
-          light: "#FFD1DC",
-          DEFAULT: "#FF69B4",
-          dark: "#C71585",
-        },
-        customGray: "#1A202C",
       },
     },
   },
