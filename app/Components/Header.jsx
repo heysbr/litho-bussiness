@@ -41,8 +41,9 @@ export default function Header() {
           <span className="text-xl font-bold text-gray-800">LITHO</span>
         </div>
 
+          <div className="flex">
         {/* Navigation Links */}
-        <nav className="hidden md:flex space-x-8 relative">
+        <nav className="hidden md:flex  space-x-8 relative mx-7">
           {[
             { label: "Home", dropdown: ["Home 1", "Home 2", "Home 3"] },
             { label: "Pages", dropdown: ["About Us", "Contact Us", "Services"] },
@@ -85,6 +86,8 @@ export default function Header() {
           ))}
         </nav>
 
+      
+
         {/* Icons */}
         <div className="flex items-center space-x-4">
           <button>
@@ -121,6 +124,7 @@ export default function Header() {
               />
             </svg>
           </button>
+        </div>
         </div>
       </div>
     </header>
