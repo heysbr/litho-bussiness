@@ -1,8 +1,13 @@
+import Footer from "./Components/Footer";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      Hello world!
+      <div>Header</div>
+      <div>Main</div>
+      <Footer/>
     </div>
   );
-}
+};
+
+export default Home;
