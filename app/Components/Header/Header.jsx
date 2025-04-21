@@ -22,7 +22,7 @@ import GlobalContext from "../../Context/Context";
 import HeaderData from "./HeaderData";
 
 // css
-import "./header.scss";
+// import "./header.scss";
 
 /* Header Component Start */
 export const Header = memo((props) => {
